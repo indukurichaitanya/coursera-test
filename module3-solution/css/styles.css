@@ -1,0 +1,94 @@
+body {
+  font-size: 16px;
+  color: #000;
+  font-family: 'Oxygen', sans-serif;
+  box-sizing: border-box;
+}
+
+#header-nav {
+  background-color: LightSeaGreen;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand {
+  height: 60px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  color: black;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  vertical-align: middle;
+}
+
+#collapsable-nav
+{
+	border: none;
+	box-shadow: none;
+	padding-top: -10px;
+}
+
+#nav-list{
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+#nav-list a {
+  background-color: Lavender;
+  font-size: 1.2em;
+  font-weight: bold;
+  border: 1px solid black;
+  color: black;
+}
+
+#nav-list a:hover {
+  background-color: #E7E7E7;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 2px solid black;
+  border-radius: 5px;
+}
+.navbar-header button.navbar-toggle {
+  margin-top: 10px;
+}
+
+#main-content {
+	margin-bottom: 20px;
+}
+
+#main-content h2 {
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+
+#menus {
+	background-color: Tan;
+	margin:5px;
+}
+
+#chickenMenu h3 {
+	font-weight: bold;
+}
+
+#chickenMenu p {
+	font-size: 1.2em;
+}
+
+@media (max-width: 767px) {
+ 
+ .navbar-header button.navbar-toggle
+ {
+	 vertical-align: middle;
+ }
+ 
+ #main-content {
+	 margin-left: 10px;
+	 margin-right: 10px;
+ }
+
+}
